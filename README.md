@@ -4,8 +4,10 @@ A simple front-end web application that functions as a Pokédex. Users can searc
 
 This project was built as part of the **JavaScript Algorithms and Data Structures** certification curriculum from [freeCodeCamp](https://www.freecodecamp.org/).
 
-**Live Demo:** [**https://your-username.github.io/your-repo-name/**](https://your-username.github.io/your-repo-name/)
+**Live Demo:** [**https://mari3l-p.github.io/RPG-creature-search**](https://mari3l-p.github.io/RPG-creature-search)
 *(Replace this link with your own GitHub Pages URL)*
+
+![Application images](creatures.jpg)
 
 ---
 
@@ -44,7 +46,7 @@ You can view the live project hosted on GitHub Pages (or your preferred hosting 
 
 1.  **Clone the repository:**
     ```sh
-    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+    git clone [https://github.com/mari3l-p/RPG-creature-search](https://github.com/mari3l-p/RPG-creature-search)
     ```
 
 2.  **Navigate to the project directory:**
