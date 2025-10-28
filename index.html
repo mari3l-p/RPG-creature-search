@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>RPG Creature Search App Project</title>
+</head>
+<body>
+    <h1>RPG Creature Search App</h1>
+
+    <!-- dark or light mode switch -->
+    <span id="switch">
+        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" class="bi bi-toggle-off" viewBox="0 0 16 16">
+            <path d="M11 4a4 4 0 0 1 0 8H8a5 5 0 0 0 2-4 5 5 0 0 0-2-4zm-6 8a4 4 0 1 1 0-8 4 4 0 0 1 0 8M0 8a5 5 0 0 0 5 5h6a5 5 0 0 0 0-10H5a5 5 0 0 0-5 5"/>
+        </svg>
+    </span>
+    <img src="pokemon.png" alt="pokemon picture">
+
+    <div>
+        <div id="search-field">
+            <label for="search-input">Search for Creature <span class="anotherColor">Name</span> or <span class="anotherColor">ID</span>:</label>
+            <input type="text" id="search-input" required autocomplete="off">
+            <button type="submit" id="search-button">Search</button>
+        </div>
+        <div id="info" class="hidden">
+            <div><span id="creature-name"></span> <span id="creature-id"></span></div>
+            <div><span id="weight"></span> <span id="height"></span></div><br>
+            <div id="types"></div><br>
+
+            <div id="special-info">
+                <div><b>Hp:</b> <span id="hp"></span></div>
+                <div><b>Attack:</b> <span id="attack"></span></div>
+                <div><b>Defense:</b> <span id="defense"></span></div>
+                <div><b>Special-attack:</b> <span id="special-attack"></span></div>
+                <div><b>Special-defense:</b> <span id="special-defense"></span></div>
+                <div><b>Speed:</b> <span id="speed"></span></div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

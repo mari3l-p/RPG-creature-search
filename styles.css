@@ -1,0 +1,110 @@
+:root {
+    --color-primary: hsl(242, 50%, 90%);
+    --color-secondary: hsl(242, 50%, 10%);
+    --color-tertiary: hsl(302, 80%, 20%);
+    --color-accent: hsl(182, 80%, 20%);
+    --base: hsla(0, 0%, 100%, 0.5);
+}
+
+.dark {
+    --color-primary: hsl(242, 50%, 10%);
+    --color-secondary: hsl(242, 50%, 90%);
+    --color-tertiary: hsl(302, 80%, 80%);
+    --color-accent: hsl(182, 80%, 80%);
+    --base: hsla(0, 0%, 0%, 0.5);
+}
+
+body {
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
+
+/* switch mode */
+#switch svg{
+    cursor: pointer;
+    fill: var(--color-secondary);
+}
+
+#switch {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin-bottom: 15px;
+}
+
+/* header */
+
+h1 {
+    margin: 30px 0 0 0;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+img {
+    width: 350px;
+    
+}
+
+/* search field */
+
+#search-field {
+    margin: 25px 0;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.anotherColor {
+    color: var(--color-tertiary);
+}
+
+#search-input {
+    border: 2px solid var(--color-tertiary);
+    border-radius: 10px;
+    height: 30px;
+    width: 210px;
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+    margin: 0;
+}
+
+#search-button {
+    border-radius: 10px;
+    height: 35px;
+    width: 125px;
+    font-size: 1.2rem;
+    background-color: var(--color-tertiary);
+    color: var(--color-primary);
+    cursor: pointer;
+    border: none;
+}
+
+/* all the information */
+
+#info {
+    background-color: var(--base);
+    color: var(--color-secondary);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
+
+#creature-name, #creature-id {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+#types {
+    color: var(--color-accent);
+}
+
